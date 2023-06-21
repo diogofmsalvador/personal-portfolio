@@ -1,0 +1,101 @@
+.second-section {
+    margin-top: 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 160px 0 100px 0;
+}
+
+.second-section h2 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+}
+
+.second-section p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-card {
+    width: 100%;
+    margin: 0 20px 0 20px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.service-card:hover {
+    background: rgba(89, 89, 89, 0.5);
+    border: 0.5px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.service-card h6 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.service-card-img {
+    width: 80px;
+    height: 80px;
+    padding: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-card-p {
+    padding: 20px;
+}
+
+.service-card-p p {
+    font-size: 15px;
+    color: white;
+    width: 100%;
+}
+
+.service-card-button button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    transition: 0.3s linear;
+}
+
+.service-card-button button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.service-card-button button:hover {
+    transform: scale(1.1);
+}
+
+.service-card-button button:hover svg {
+    margin-left: 20px;
+}

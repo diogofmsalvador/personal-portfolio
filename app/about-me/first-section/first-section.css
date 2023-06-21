@@ -1,0 +1,53 @@
+.first-section-about {
+    margin-top: 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.first-section-about .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.first-section-about h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.first-section-about p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
+
+.first-section-about button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    transition: 0.3s linear;
+}
+
+.first-section-about-image img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 60vh;
+    width: 70vh;
+    object-position: 50% 20%;
+    border: 10px solid white;
+}
