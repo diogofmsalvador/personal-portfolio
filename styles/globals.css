@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
@@ -16,6 +18,12 @@
 @font-face {
 	font-family: Centra;
 	src: url('/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Bebas Neue;
+	src: url('/fonts/BebasNeue-Regular.ttf');
 	font-weight: 400;
 }
 
@@ -37,7 +45,7 @@ body {
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'Centra', sans-serif;
 
   background: linear-gradient(178deg, #121212, #550056, #a75100);
   background-size: 450% 450%;

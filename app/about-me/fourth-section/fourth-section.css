@@ -1,0 +1,26 @@
+.fourth-section-about {
+  margin-top: 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+}
+
+.fourth-section-about h2 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
+
+  transform: translateY(65px);
+}
+
+.fourth-section-about-certificates {
+  padding: 70px 0px;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 30px;
+  border: 1px solid black;
+}

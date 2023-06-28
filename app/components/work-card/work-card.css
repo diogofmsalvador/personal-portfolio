@@ -1,0 +1,101 @@
+.second-section-about-work-card {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
+  
+    backdrop-filter: blur(15px);
+
+    transition: 0.6s linear;
+}
+  
+.second-section-about-work-card-header {
+    font-size: 0.65em;
+    color: rgb(255, 255, 255);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.second-section-about-work-card-header h3 {
+    margin: 0;
+    font-size: 2.3rem;
+    transform: translateY(2px);
+
+    transition: 0.6s ease-in-out;
+}
+
+.second-section-about-work-card-content h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    transition: 0.6s ease-in-out;
+}
+
+.second-section-about-work-card-content {
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 20px 0 20px 20px;
+    padding: 35px;
+
+    transition: 0.6s linear;
+}
+
+.second-section-about-work-card-timeline-labels {
+    min-height: 1.3rem;
+}
+
+.second-section-about-work-card-timeline-labels p {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(124, 124, 124);
+    width: auto;
+
+    transition: 0.6s ease-in-out;
+}
+
+.second-section-about-work-card-timeline {
+    height: 10px;
+    border-radius: 100px;
+
+    transition: 0.6s ease-in-out;
+}
+
+.second-section-about-work-card-timeline-labels-dates {
+    font-size: 1rem !important;
+}
+
+.card-footer {
+    font-size: 0.65em;
+    color: #446;
+}
+
+.second-section-about-work-card:hover {
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.75);
+}
+
+.second-section-about-work-card:hover .second-section-about-work-card-content {
+    background-color: transparent;
+    box-shadow: 0px -10px 100px rgba(0, 0, 0, 0.35);
+}
+
+.second-section-about-work-card:hover p {
+    color: rgb(255, 255, 255) !important;
+}
+
+.second-section-about-work-card:hover .second-section-about-work-card-content h4 {
+    color: rgb(255, 255, 255) !important;
+}
+
+.second-section-about-work-card:hover .second-section-about-work-card-header h3 {
+    font-size: 2.7rem;
+}
+
+.second-section-about-work-card:hover .second-section-about-work-card-timeline {
+    border: 1px solid rgb(255, 255, 255);
+}

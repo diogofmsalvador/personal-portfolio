@@ -3,11 +3,19 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    padding-bottom: 70px;
 }
 
 .second-section-about-work {
+    display: grid;
+    grid-gap: 50px;
     margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 70px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 30px;
+    border: 1px solid black;
 }
 
 .second-section-about .tagline {
@@ -24,7 +32,10 @@
     letter-spacing: 0.8px;
     line-height: 1;
     margin-bottom: 30px;
+    text-align: center;
     display: block;
+
+    transform: translateY(65px);
 }
 
 .second-section-about h3 {
@@ -36,11 +47,13 @@
 }
 
 .second-section-about p {
-    color: #B8B8B8;
-    font-size: 18px;
+    color: rgb(159, 159, 159);
+    font-size: 16px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
+
+    transition: 0.6s ease-in-out;
 }
 
 .second-section-about button {
@@ -60,85 +73,4 @@
 
 .second-section-about-right {
     padding-left: 0px;
-}
-
-.second-section-about-work {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.second-section-about-work-card {
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  
-    height: 300px;
-  
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    background-color: #86B049;
-    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
-  
-    backdrop-filter: blur(15px);
-}
-  
-.second-section-about-work-card-header {
-    font-size: 0.65em;
-    color: rgb(255, 255, 255);
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
-
-.second-section-about-work-card-header h3 {
-    margin: 0;
-    font-size: 2.3rem;
-    transform: translateY(2px);
-}
-
-.second-section-about-work-card-content h4 {
-    font-size: 1.5rem;
-    color: #86B049;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.second-section-about-work-card-content {
-    background-color: #ffffff;
-    height: 100%;
-    border-radius: 20px 0 20px 20px;
-    padding: 35px;
-}
-
-.second-section-about-work-card-content p {
-    margin-bottom: 0px;
-}
-
-.second-section-about-work-card-timeline-labels {
-    min-height: 1.3rem;
-}
-
-.second-section-about-work-card-timeline-labels p {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: rgba(0, 0, 0, 1);
-    width: auto;
-}
-
-.second-section-about-work-card-timeline {
-    height: 10px;
-    border-radius: 100px;
-    background-color: #86B049;
-}
-
-.second-section-about-work-card-timeline-labels-dates {
-    font-size: 1rem !important;
-    color: #86B049 !important;
-}
-
-.card-footer {
-    font-size: 0.65em;
-    color: #446;
 }

@@ -1,0 +1,130 @@
+.third-section-about {
+    margin-top: 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+}
+
+.third-section-about-education {
+    padding-right: 30px !important;
+}
+
+.third-section-about-publications {
+    padding-left: 30px !important;
+}
+
+.third-section-about-education>h2 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 30px;
+    text-align: start;
+    display: block;
+
+    transform: translate(-20px, 65px);
+}
+
+.third-section-about-publications>h2 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 30px;
+    text-align: end;
+    display: block;
+
+    transform: translate(20px, 65px);
+}
+
+.third-section-about-education>div {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 70px;
+}
+
+.third-section-about-publications>div {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 70px;
+}
+
+.third-section-about-education-accordion {
+    display: flex;
+    width: 100%;
+}
+
+.third-section-about-education-accordion>img {
+    width: 80px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.third-section-about-education-accordion>div {
+    width: 100%;
+}
+
+.third-section-about-education-accordion>div div {
+    display: flex;
+}
+
+.third-section-about-education-accordion div>div>div {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.accordion .accordion-item:nth-of-type(1) {
+    margin-bottom: 60px;
+}
+
+.accordion-item {
+    border-radius: 20px !important;
+}
+
+.accordion-button {
+    border-radius: 20px !important;
+}
+
+.accordion {
+    --bs-accordion-active-color: #9e1a25 !important;
+    --bs-accordion-active-bg: rgba(158, 26, 37, 0.1) !important;
+    --bs-accordion-btn-focus-border-color: #9e1a25 !important;
+    --bs-accordion-btn-focus-box-shadow: rgba(158, 26, 37, 0.4) 0px 6px 12px -2px, rgba(158, 26, 37, 0.4) 0px 3px 7px -3px !important;
+}
+
+.third-section-about-education-accordion-body a {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    transition: 0.3s linear;
+}
+
+.third-section-about-education-accordion-body a svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.third-section-about-education-accordion-body a:hover svg {
+    margin-left: 20px;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #9e1a25 !important;
+    --bs-btn-border-color: #9e1a25 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #9e1a25 !important;
+    --bs-btn-hover-border-color: #9e1a25 !important;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+}

@@ -31,7 +31,7 @@
     width: 96%;
 }
 
-.first-section-about button {
+.first-section-about .social-buttons {
     color: #fff;
     font-weight: 700;
     font-size: 20px;
@@ -40,7 +40,8 @@
     display: flex;
     align-items: center;
     margin-right: auto;
-    transition: 0.3s linear;
+    border-radius: 100px;
+    padding: 20px 20px;
 }
 
 .first-section-about-image img {
@@ -50,4 +51,57 @@
     width: 70vh;
     object-position: 50% 20%;
     border: 10px solid white;
+}
+
+#github-social {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.35);
+
+    transition: 0.3s ease-in-out;
+}
+
+#github-social:hover {
+    border: 0.5px solid rgb(12, 66, 123);
+    background: rgb(18, 93, 173);
+}
+
+#linkedin-social {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.35);
+
+    transition: 0.3s ease-in-out;
+}
+
+#linkedin-social:hover {
+    border: 0.5px solid rgb(19, 90, 167);
+    background: rgba(13,42,133,1);
+}
+
+#mail-social {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.35);
+
+    transition: 0.3s ease-in-out;
+}
+
+#mail-social:hover {
+    border: 0.5px solid rgb(19, 132, 167);
+    background: rgb(13, 133, 133);
+}
+
+#phone-social {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.35);
+
+    transition: 0.3s ease-in-out;
+}
+
+#phone-social:hover {
+    border: 0.5px solid rgb(19, 167, 46);
+    background: rgb(13, 133, 109);
+}
+
+.left-social-button {
+    margin-left: auto !important;
+    margin-right: 70px !important;
 }

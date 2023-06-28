@@ -1,0 +1,221 @@
+.row {
+    max-width: inherit !important;
+}
+
+.first-section-skills .first-section-skills-title {
+    font-size: 5vw;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    text-align: center;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    max-width: inherit;
+    width: 100%;
+
+    text-shadow: -2px 0 #3c1053, 0 2px #3c1053, 2px 0 #3c1053, 0 -2px #3c1053;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    transform: translateY(-15vw);
+}
+
+.first-section-skills .first-section-skills-subtitle {
+    font-size: 5vw;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1;
+    text-align: center;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    max-width: inherit;
+    width: 100%;
+
+    font-family: 'Bebas Neue', sans-serif !important;
+
+    text-shadow: -2px 0 #3c1053, 0 2px #3c1053, 2px 0 #3c1053, 0 -2px #3c1053;
+
+    transform: translateY(13vw);
+}
+
+.first-section-skills-center {
+    margin: auto !important;
+    border-radius: 50%;
+    width: 35vw !important;
+    height: 35vw;
+    transform: translateY(25px);
+
+    padding: 0 !important;
+
+    border: 0.5px dotted #3c1053;
+
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.first-section-skills-center-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-section-skills-center-one {
+    z-index: 2;
+    margin: auto !important;
+    border-radius: 50%;
+    width: 11vw !important;
+    height: 11vw;
+    padding: 0 !important;
+
+    transform: translate(-17vw, -5vw);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.85) 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.first-section-skills-center-two {
+    z-index: 2;
+    margin: auto !important;
+    border-radius: 50%;
+    width: 11vw !important;
+    height: 11vw;
+    padding: 0 !important;
+
+    transform: translate(17vw, -5vw);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.85) 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.first-section-skills-center-shadow {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 100%;
+    opacity: 0.7;
+
+    box-shadow: rgba(17, 17, 26, 0.4) 0px 4px 16px, rgba(17, 17, 26, 0.4) 0px 8px 24px, rgba(17, 17, 26, 0.4) 0px 16px 56px;
+
+    background: #ad5389; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ad5389, #3c1053); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 180% 180%;
+    animation: gradient-animation 4s ease infinite;
+}
+
+.first-section-skills-center-absolute .skill-one {
+
+}
+
+.first-section-skills-center-absolute .skill-two {
+    
+}
+
+.first-section-skills-center-absolute .skill-three {
+    
+}
+
+.first-section-skills-center-absolute .skill-four {
+    
+}
+
+.first-section-skills-center-absolute .skill-five {
+    width: 6.5vw;
+    height: 6.5vw;
+    border-radius: 50%;
+    transform: translate(10vw, -15vw);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.85) 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.first-section-skills-center-absolute .skill-six {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    transform: translate(-3vw, -10vw);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.85) 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.first-section-skills-center-absolute .skill-seven {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    transform: translate(1vw, 0vw);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.85) 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.first-section-skills-center-absolute .skill-eight {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    transform: translate(11vw, 6vw);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.85) 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.first-section-skills-center-absolute .skill-nine {
+    width: 6.5vw;
+    height: 6.5vw;
+    border-radius: 50%;
+    transform: translate(-4vw, 9vw);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.85) 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.first-section-skills-center-absolute .skill-ten {
+    width: 8.5vw;
+    height: 8.5vw;
+    border-radius: 50%;
+    transform: translate(6vw, 17vw);
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.85) 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
