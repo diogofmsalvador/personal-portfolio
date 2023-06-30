@@ -70,21 +70,149 @@ export const FirstSection = () => {
                         </div>
                     </div>
 
-                    <SkillBubble skillName="Front-End Web Developer" skillId="first-section-skills-center-one" skillTransform="translate(-3.23vw, -3.72vw) rotate(-40deg)" skillMultiplier={1.33} skillDirection={1} />
-                    <SkillBubble skillName="Back-End Web Developer" skillId="first-section-skills-center-two" skillTransform="translate(3.2vw, -3.83vw) rotate(40deg)" skillMultiplier={1.3} skillDirection={1} />
+                    <SkillBubble
+                        skillName="Front-End Web Developer"
+                        skillId="first-section-skills-center-one"
+                        skillNameTransform="translate(-3.23vw, -3.72vw) rotate(-40deg)"
+                        skillRateTransform="translate(4.9vw, -3.72vw) rotate(-40deg)"
+                        skillMultiplier={1.33}
+                        skillRateMultiplier={1.33}
+                        skillDirection={1}
+                        skillRate={5}
+                    />
 
-                    <SkillBubble skillName="Security Auditor" skillId="skill-zero" skillTransform="translate(-1.6vw, -2.85vw) rotate(-30deg)" skillMultiplier={1.4} skillDirection={1} />
-                    <SkillBubble skillName="Mobile Developer" skillId="skill-one" skillTransform="translate(1.5vw, -3.9vw) rotate(20deg)" skillMultiplier={1.35} skillDirection={1} />
-                    <SkillBubble skillName="SEO" skillId="skill-two" skillTransform="translate(-0.8vw, -3.15vw) rotate(-15deg)" skillMultiplier={1.35} skillDirection={1} />
-                    <SkillBubble skillName="Infrastructure Developer" skillId="skill-three" skillTransform="translate(1.75vw, -2.9vw) rotate(30deg)" skillMultiplier={1.35} skillDirection={1} />
-                    <SkillBubble skillName="SCRUM" skillId="skill-four" skillTransform="translate(2.3vw, -3.2vw) rotate(35deg)" skillMultiplier={1.35} skillDirection={1} />
-                    <SkillBubble skillName="Database Designer" skillId="skill-five" skillTransform="translate(2.85vw, 3.4vw) rotate(-40deg)" skillMultiplier={1.25} skillDirection={-1} />
-                    <SkillBubble skillName="Systems Architecture" skillId="skill-six" skillTransform="translate(1.45vw, -2.45vw) rotate(30deg)" skillMultiplier={1.4} skillDirection={1} />
-                    <SkillBubble skillName="Microservice Developer" skillId="skill-seven" skillTransform="translate(-1.3vw, -3.45vw) rotate(-20deg)" skillMultiplier={1.35} skillDirection={1} />
-                    <SkillBubble skillName="Testing" skillId="skill-eight" skillTransform="translate(0.8vw, -3vw) rotate(15deg)" skillMultiplier={1.5} skillDirection={1} />
-                    <SkillBubble skillName="Automation Developer" skillId="skill-nine" skillTransform="translate(-1.83vw, -3.15vw) rotate(-30deg)" skillMultiplier={1.35} skillDirection={1} />
-                    <SkillBubble skillName="Quality Reporting" skillId="skill-ten" skillTransform="translate(-1.8vw, -2.6vw) rotate(-35deg)" skillMultiplier={1.4} skillDirection={1} />
-                    <SkillBubble skillName="DevOps" skillId="skill-eleven" skillTransform="translate(-3.05vw, 4.05vw) rotate(38deg)" skillMultiplier={1.25} skillDirection={-1} />
+                    <SkillBubble
+                        skillName="Back-End Web Developer"
+                        skillId="first-section-skills-center-two"
+                        skillNameTransform="translate(3.2vw, -3.83vw) rotate(40deg)"
+                        skillRateTransform="translate(-2.8vw, -2.05vw) rotate(40deg)"
+                        skillMultiplier={1.3}
+                        skillRateMultiplier={1.3}
+                        skillDirection={1}
+                        skillRate={5}
+                    />
+
+                    <SkillBubble
+                        skillName="Security Auditor"
+                        skillId="skill-zero"
+                        skillNameTransform="translate(-1.6vw, -2.85vw) rotate(-30deg)"
+                        skillRateTransform="translate(1.55vw, -1.8vw) rotate(-30deg)"
+                        skillMultiplier={1.4}
+                        skillRateMultiplier={1.4}
+                        skillDirection={1}
+                        skillRate={4}
+                    />
+                    <SkillBubble
+                        skillName="Mobile Developer"
+                        skillId="skill-one"
+                        skillNameTransform="translate(1.5vw, -3.9vw) rotate(20deg)"
+                        skillRateTransform="translate(-0.6vw, -0.7vw) rotate(20deg)"
+                        skillMultiplier={1.35}
+                        skillRateMultiplier={1.35}
+                        skillDirection={1}
+                        skillRate={3}
+                    />
+                    <SkillBubble
+                        skillName="SEO"
+                        skillId="skill-two"
+                        skillNameTransform="translate(-0.8vw, -3.15vw) rotate(-15deg)"
+                        skillRateTransform="translate(-0.7vw, -2.9vw) rotate(-15deg)"
+                        skillMultiplier={1.35}
+                        skillRateMultiplier={1.55}
+                        skillDirection={1}
+                        skillRate={5}
+                    />
+                    <SkillBubble
+                        skillName="Infrastructure Developer"
+                        skillId="skill-three"
+                        skillNameTransform="translate(1.75vw, -2.9vw) rotate(30deg)"
+                        skillRateTransform="translate(-2.15vw, -1.8vw) rotate(30deg)"
+                        skillMultiplier={1.35}
+                        skillRateMultiplier={1.35}
+                        skillDirection={1}
+                        skillRate={4}
+                    />
+                    <SkillBubble
+                        skillName="SCRUM"
+                        skillId="skill-four"
+                        skillNameTransform="translate(2.3vw, -3.2vw) rotate(35deg)"
+                        skillRateTransform="translate(-2.3vw, -1.8vw) rotate(35deg)"
+                        skillMultiplier={1.35}
+                        skillRateMultiplier={1.35}
+                        skillDirection={1}
+                        skillRate={3}
+                    />
+                    <SkillBubble
+                        skillName="Database Designer"
+                        skillId="skill-five"
+                        skillNameTransform="translate(2.85vw, 3.4vw) rotate(-40deg)"
+                        skillRateTransform="translate(-3.3vw, -10.2vw) rotate(-40deg)"
+                        skillMultiplier={1.25}
+                        skillRateMultiplier={1.4}
+                        skillDirection={-1}
+                        skillRate={5}
+                    />
+                    <SkillBubble
+                        skillName="Systems Architecture"
+                        skillId="skill-six"
+                        skillNameTransform="translate(1.45vw, -2.45vw) rotate(30deg)"
+                        skillRateTransform="translate(-2.76vw, -3vw) rotate(30deg)"
+                        skillMultiplier={1.4}
+                        skillRateMultiplier={1.4}
+                        skillDirection={1}
+                        skillRate={5}
+                    />
+
+                    <SkillBubble
+                        skillName="Microservice Developer"
+                        skillId="skill-seven"
+                        skillNameTransform="translate(-1.3vw, -3.45vw) rotate(-20deg)"
+                        skillRateTransform="translate(1.2vw, -2vw) rotate(-20deg)"
+                        skillMultiplier={1.35}
+                        skillRateMultiplier={1.35}
+                        skillDirection={1}
+                        skillRate={5}
+                    />
+                    <SkillBubble
+                        skillName="Testing"
+                        skillId="skill-eight"
+                        skillNameTransform="translate(0.8vw, -3vw) rotate(15deg)"
+                        skillRateTransform="translate(-1.9vw, -2.5vw) rotate(15deg)"
+                        skillMultiplier={1.5}
+                        skillRateMultiplier={1.6}
+                        skillDirection={1}
+                        skillRate={4}
+                    />
+                    <SkillBubble
+                        skillName="Automation Developer"
+                        skillId="skill-nine"
+                        skillNameTransform="translate(-1.83vw, -3.15vw) rotate(-30deg)"
+                        skillRateTransform="translate(2.5vw, -2.1vw) rotate(-30deg)"
+                        skillMultiplier={1.35}
+                        skillRateMultiplier={1.45}
+                        skillDirection={1}
+                        skillRate={4}
+                    />
+                    <SkillBubble
+                        skillName="Quality Reporting"
+                        skillId="skill-ten"
+                        skillNameTransform="translate(-1.8vw, -2.6vw) rotate(-35deg)"
+                        skillRateTransform="translate(2.6vw, -1.9vw) rotate(-35deg)"
+                        skillMultiplier={1.4}
+                        skillRateMultiplier={1.4}
+                        skillDirection={1}
+                        skillRate={3}
+                    />
+                    <SkillBubble
+                        skillName="DevOps"
+                        skillId="skill-eleven"
+                        skillNameTransform="translate(-3.05vw, 4.05vw) rotate(38deg)"
+                        skillRateTransform="translate(3.8vw, -10vw) rotate(40deg)"
+                        skillMultiplier={1.25}
+                        skillRateMultiplier={1.25}
+                        skillDirection={-1}
+                        skillRate={4}
+                    />
 
                     <h2 className='first-section-skills-subtitle' ref={secondCircleInstance}>
                         {`● Software Developer ●`}
