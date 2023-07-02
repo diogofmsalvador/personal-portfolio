@@ -11,7 +11,8 @@ export default function SkillBubble({
     skillMultiplier,
     skillRateMultiplier,
     skillDirection,
-    skillRate
+    skillRate,
+    images
 }) {
 
     let skillRateString = "⭐︎".repeat(skillRate);
@@ -20,16 +21,25 @@ export default function SkillBubble({
 
     const rateInstance = useRef();
 
+    var elem = images.map(item =>
+        <div className='first-section-skills-center-absolute'>
+            <img src={item.src} alt={item.alt} id={item.id} style={{
+                transform: item.transform + ' ' + skillNameTransform.split(' ').find(part => part.startsWith('rotate'))
+            }} />
+        </div>
+    );
+
     useEffect(() => {
         const skillWidth = document.getElementById(skillId).offsetWidth;
 
         console.log(skillWidth);
 
-        new CircleType(skillInstance.current).dir(skillDirection).radius(skillWidth/2 * skillMultiplier).forceWidth(skillWidth/4);
-        new CircleType(rateInstance.current).dir(-skillDirection).radius(skillWidth/2 * skillRateMultiplier).forceWidth(skillWidth/4);
+        new CircleType(skillInstance.current).dir(skillDirection).radius(skillWidth / 2 * skillMultiplier).forceWidth(skillWidth / 4);
+        new CircleType(rateInstance.current).dir(-skillDirection).radius(skillWidth / 2 * skillRateMultiplier).forceWidth(skillWidth / 4);
 
         document.getElementById(skillId + '-text').style.transform = skillNameTransform;
         document.getElementById(skillId + '-rate').style.transform = skillRateTransform;
+
     }, []);
 
     return (
@@ -38,6 +48,7 @@ export default function SkillBubble({
                 <h3 id={skillId + '-text'} ref={skillInstance}>
                     {skillName}
                 </h3>
+                {elem}
                 <h4 id={skillId + '-rate'} ref={rateInstance}>
                     {skillRateString}
                 </h4>

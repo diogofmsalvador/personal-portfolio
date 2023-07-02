@@ -8,7 +8,6 @@ export default async function Skills() {
         <div className="container">
             <FirstSection />
             <SecondSection />
-            <ThirdSection />
         </div>
     )
 }
