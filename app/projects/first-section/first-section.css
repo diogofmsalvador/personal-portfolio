@@ -1,0 +1,39 @@
+.first-section-projects {
+    margin-top: 12vh;
+}
+
+.first-section-projects h1 {
+    transform: translateY(3.7vh);
+    z-index: 1;
+    position: relative;
+
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    display: block;
+    text-align: center;
+}
+
+.first-section-projects-contents {
+    display: flex;
+
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.first-section-projects-contents-left {
+    padding: 30px;
+}
+
+.first-section-projects-contents-right {
+    display: grid;
+    padding: 30px;
+    padding-top: 30px;
+    padding-top: 48px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    grid-template-columns: repeat(2, 1fr);
+}

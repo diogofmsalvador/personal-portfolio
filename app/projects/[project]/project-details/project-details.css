@@ -1,0 +1,113 @@
+.project-details-section {
+    margin-top: 15vh;
+}
+
+.project-details-section .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: block;
+    text-align: center;
+}
+
+.project-details-section h1 {
+    z-index: 1;
+    position: relative;
+
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    display: block;
+    text-align: center;
+}
+
+.project-details-section .projects-details-section-description {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.project-details-section .projects-details-section-description p {
+    z-index: 1;
+    position: relative;
+
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+    display: block;
+    text-align: center;
+}
+
+.project-details-bubble {
+    display: flex;
+
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 1000px;
+    text-align: center;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+
+    min-height: 100px;
+}
+
+.project-details-bubble-sec {
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+
+    background: rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+
+    min-height: 100px;
+}
+
+.project-details-bubble-sec .project-details-bubble-sec-li {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+    display: block;
+
+    padding: 20px;
+
+    background: transparent;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+
+    transition: background 0.2s ease-in-out;
+}
+
+.project-details-bubble-sec .project-details-bubble-sec-li:hover {
+    background: rgba(104, 104, 104, 0.45);
+}
+
+.project-details-bubble-sec ul {
+    list-style-type: initial;
+    margin: 0;
+    padding: 0;
+}
+
+.project-details-bubble p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+    display: block;
+    text-align: center;
+}

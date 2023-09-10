@@ -1,0 +1,72 @@
+.skills-carousel .skills-carousel-item {
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-carousel .skills-carousel-item .skills-carousel-item-logo {
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 1000px;
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    height: 10vw;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: scale(1);
+
+    transition: 0.9s ease-in-out;
+}
+
+.skills-carousel .skills-carousel-item .skills-carousel-item-logo:hover {
+    transform: scale(1.1);
+}
+
+
+.skills-carousel .skills-carousel-item .skills-carousel-item-logo img {
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+
+    transform: scale(0.8);
+}
+
+.skills-carousel .skills-carousel-item div {
+    width: 100%;
+    text-align: center;
+}
+
+.skills-carousel .skills-carousel-item div h3 {
+    text-transform: uppercase;
+    transform: translateY(15px);
+}
+
+.skills-carousel .skills-carousel-item .skills-carousel-item-info {
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 20px 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.skills-carousel .skills-carousel-item .skills-carousel-item-info h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translateY(3px);
+}
+
+.skills-carousel .skills-carousel-item .skills-carousel-item-info h6 {
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

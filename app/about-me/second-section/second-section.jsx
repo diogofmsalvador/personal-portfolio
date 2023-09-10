@@ -19,7 +19,7 @@ export const SecondSection = () => {
                 <div className='second-section-about-work'>
                     <div className='second-section-about-right'>
                         <WorkCard
-                            workplace="Deloitte Delivery Center"
+                            workplace="Deloitte D. C."
                             title="Junior Programmer"
                             information="Created and implemented request-handling automated scripts using programming languages such as Python. These scripts improved the response time of each request and fixed possible human-made errors that were common before this automation was implemented. Development of an infrastructure platform using Amazon Web Services (AWS) services, such as Step Functions, Lambda, Cloudwatch, and more. Analysis of a complete infrastructure with four environments and using EKS service (Kubernetes). Worked with a team of people from multiple countries, primarily Germany and Portugal, and spoke to them in English with ease regularly."
                             start_date="September 2021"
